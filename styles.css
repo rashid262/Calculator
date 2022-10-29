@@ -1,0 +1,75 @@
+      @import url('http://fonts.goog;eapis.com/css2?family=Orbitron&display=swap');
+      body {
+          padding: 100px 10px 10px 10px;
+          background-image: url(/bgimage.jpg);
+          background-size: 100% 100%;
+          position: relative;
+      }
+      
+      .calculator {
+          padding: 10px;
+          border-bottom-left-radius: 1em;
+          border-bottom-right-radius: 1em;
+          height: 380px;
+          width: 400px;
+          margin: auto;
+          background-color: #4f83a1;
+          box-shadow: 5px 10px rgba(96, 105, 111, 0.28);
+      }
+      
+      .display-box {
+          font-family: 'Orbitron', sans-serif;
+          background-color: #dbd3d1;
+          border: solid black 0.5px;
+          width: 90%;
+          height: 70%;
+          border-radius: 15px;
+          outline: none;
+          float: right;
+          margin: 15px;
+          font-size: large;
+      }
+      
+      #btn {
+          background-color: #dbd3d1;
+      }
+      
+      input[type=button] {
+          font-family: 'Orbitron', sans-serif;
+          font-size: 20px;
+          background-color: #dbd3d1;
+          color: black;
+          border: solid black 0.3px;
+          padding-top: 4.5px;
+          margin: 10px;
+          border-radius: 10px;
+          outline: none;
+          height: 50px;
+          width: 80px;
+      }
+      
+      input:active[type=button] {
+          -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+          -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+          box-shadow: inset 0px 0px 5px #c1c1c1;
+      }
+      
+      .heading {
+          font-family: Georgia, 'Times New Roman', Times, serif;
+          text-align: center;
+          background-color: #2d4c6b;
+          border-top-right-radius: 15px;
+          border-top-left-radius: 15px;
+          height: 75px;
+          width: 426px;
+          margin-left: auto;
+          margin-right: auto;
+          padding: 5px;
+          color: antiquewhite;
+      }
+      
+      .foot {
+          position: absolute;
+          bottom: -8px;
+          right: 2px;
+      }
