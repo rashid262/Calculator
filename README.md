@@ -1,4 +1,4 @@
 # Calculator
-This is the first project in the journey of my Web Development.
+This is the first project when i started my computer science Engineering Degree.
 
 
