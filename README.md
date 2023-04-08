@@ -1,4 +1,4 @@
 # Calculator
-This is the first project when i started my computer science Engineering Degree.
+This is the first project when i started my Computer Science and Engineering Degree.
 
 
